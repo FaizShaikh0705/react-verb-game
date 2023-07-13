@@ -1,0 +1,36 @@
+body {
+    background-image: url(../../public/images/bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media(max-width:767px) {
+        background-image: url(../../public/images/bg3.png);
+        height: 900px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.tittle{
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+.submit-btn{
+    margin-top: 30px;
+}
+
+.header{
+    margin-top: 40px;
+}
+.red{
+    color: red;
+}
+.verbss{
+    font-size: 24px;
+    font-weight: 600;
+}
+.report{
+    margin-top: 30px;
+}
